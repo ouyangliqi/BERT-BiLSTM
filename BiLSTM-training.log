@@ -1,0 +1,43 @@
+Mon, 29 Apr 2019 23:01:12 Bi-LSTM-Tensor-version1.py[line:93] INFO Training start
+Mon, 29 Apr 2019 23:01:12 modeling.py[line:561] INFO loading archive file ./chinese_L-12_H-768_A-12
+Mon, 29 Apr 2019 23:01:12 modeling.py[line:579] INFO Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+Mon, 29 Apr 2019 23:01:25 tokenization.py[line:143] INFO loading vocabulary file ./chinese_L-12_H-768_A-12/vocab.txt
+Mon, 29 Apr 2019 23:01:26 deprecation.py[line:323] WARNING From /home/user1/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+Mon, 29 Apr 2019 23:01:26 deprecation.py[line:323] WARNING From Bi-LSTM-Tensor-version1.py:151: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+Mon, 29 Apr 2019 23:01:26 deprecation.py[line:323] WARNING From Bi-LSTM-Tensor-version1.py:155: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+Mon, 29 Apr 2019 23:01:26 deprecation.py[line:323] WARNING From /home/user1/.local/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+Mon, 29 Apr 2019 23:01:26 deprecation.py[line:323] WARNING From Bi-LSTM-Tensor-version1.py:169: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
